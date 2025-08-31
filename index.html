@@ -1,0 +1,85 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProShowcase - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">ProShowcase</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span>Rakshitha</span></h2>
+      <p>A Passionate Web Developer 🚀</p>
+      <button onclick="scrollToProjects()">View My Work</button>
+    </div>
+  </section>
+
+  <!-- Projects Showcase -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="Project 1">
+        <h3>RoomEase</h3>
+        <p>A MERN-based room booking app with authentication.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="Project 2">
+        <h3>Quiz App</h3>
+        <p>Interactive quiz app with timer and scoring system.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="Project 3">
+        <h3>Job Tracker</h3>
+        <p>Job application tracker with React and Node.js.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React.js & Node.js</li>
+      <li>MongoDB & MySQL</li>
+      <li>Python, Java, C++</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 ProShowcase | Built with ❤️ by Rakshitha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
